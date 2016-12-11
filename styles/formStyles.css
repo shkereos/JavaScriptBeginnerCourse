@@ -1,0 +1,55 @@
+@font-face {
+	font-family: 'Lora-Regular';
+	src: url('../resources/Lora-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Lora-Bold';
+	src: url('../resources/Lora-Bold.ttf') format('truetype');
+	font-weight: bold;
+}
+
+body {
+	font-family: 'Lora-Regular', Arial, serif;
+	width: 500px;
+}
+
+#question {
+	margin: 0;
+}
+
+.answer_group {
+	display: inline-block;
+	position: relative;
+	margin: 16px 0px 8px 0px;
+}
+
+input[type="radio"], .answer_text {
+	cursor: pointer;
+}
+
+input[type="text"] {
+	width: 100%;
+}
+
+input[type="submit"], .message {
+	margin-top: 16px;
+	display: inline-block;
+	float: right;
+	position: relative;
+}
+
+.message {
+	margin-right: 16px;
+	padding: 0 8px 0 8px;
+}
+
+.correct {
+	background-color: darkseagreen;
+	border: 1px solid #465846;
+}
+
+.incorrect {
+	background-color: #ef1717;
+	border: 1px solid #6d0404;
+}
